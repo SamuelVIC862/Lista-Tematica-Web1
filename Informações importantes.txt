@@ -1,0 +1,27 @@
+Informações importantes:
+
+O intuito inicial do projeto foi um pouco alterado,
+no início tinha como objetivo criar uma lista de afazeres com um sistema de recompensa que podia ter um ambiente compartilhado entre usuários, o sistema de compartilhamento de ambiente (tasks, shop) entre usuários não foi implementado.
+
+O sistema conta com o objetivo de gerenciamento de tarefas do dia a dia, gerando auto-recompensa, onde o usuário pode criar suas tarefas que ache necessário e se auto-recompensar por sua conclusão, ganhando assim uma recompensa cadastrada por ele mesmo na loja.
+
+Um exemplo de seu funcionamento foi criado no Usuário:
+	Usuário: exemplo
+	Senha: exemplo
+
+Instruções para funcionamento:
+
+O arquivo principal está ligado diretamente ao: http://localhost:3000/
+
+Para iniciar o servidor aconselho os seguintes passos:
+
+npm run dev
+
+Após isso acesse o http://localhost:3000/
+
+Obss: O processo node por algum motivo está rodando em 2º plano no terminal, portanto certifique-se de fechá-lo com Ctrl-c no terminal.
+
+	Para evitar essa situação pode utilizar:
+
+	pm2 start src/app.js
+	pm2 stop app
